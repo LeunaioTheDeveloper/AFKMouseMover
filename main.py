@@ -44,7 +44,7 @@ def move_mouse_loop():
             reset_mouse()
             moves_count = 0  # Reset moves_count back to 0
     # Schedule the move_mouse_loop function to run again after 30 seconds
-    root.after(30000, move_mouse_loop)
+    root.after(10000, move_mouse_loop)
 
 def stop_mouse():
     global is_running
